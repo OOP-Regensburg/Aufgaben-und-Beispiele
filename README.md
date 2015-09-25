@@ -1,1 +1,1 @@
-# oop-tasks-and-examples
+# Aufgaben und Beispiele für den OOP-Kurs der Medieninformatik
