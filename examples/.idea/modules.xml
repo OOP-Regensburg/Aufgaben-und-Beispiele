@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_HelloBouncer/01_HelloBouncer.iml" filepath="$PROJECT_DIR$/01_HelloBouncer/01_HelloBouncer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_ForLoop/02_ForLoop.iml" filepath="$PROJECT_DIR$/02_ForLoop/02_ForLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_IfCases/03_IfCases.iml" filepath="$PROJECT_DIR$/03_IfCases/03_IfCases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_WhileLoop/04_WhileLoop.iml" filepath="$PROJECT_DIR$/04_WhileLoop/04_WhileLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Hurdles/05_Hurdles.iml" filepath="$PROJECT_DIR$/05_Hurdles/05_Hurdles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_HelloBouncerWithMethods/06_HelloBouncerWithMethods.iml" filepath="$PROJECT_DIR$/06_HelloBouncerWithMethods/06_HelloBouncerWithMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_InfiniteLoop/08_InfiniteLoop.iml" filepath="$PROJECT_DIR$/08_InfiniteLoop/08_InfiniteLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_HelloWorld/09_HelloWorld.iml" filepath="$PROJECT_DIR$/09_HelloWorld/09_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Constants/10_Constants.iml" filepath="$PROJECT_DIR$/10_Constants/10_Constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_HelloGraphicsApp/11_HelloGraphicsApp.iml" filepath="$PROJECT_DIR$/11_HelloGraphicsApp/11_HelloGraphicsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_CenterCircle/12_CenterCircle.iml" filepath="$PROJECT_DIR$/12_CenterCircle/12_CenterCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Add2Integers/13_Add2Integers.iml" filepath="$PROJECT_DIR$/13_Add2Integers/13_Add2Integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_NumCheck/14_NumCheck.iml" filepath="$PROJECT_DIR$/14_NumCheck/14_NumCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_LargeAndEven/15_LargeAndEven.iml" filepath="$PROJECT_DIR$/15_LargeAndEven/15_LargeAndEven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16_Average2Integers/16_Average2Integers.iml" filepath="$PROJECT_DIR$/16_Average2Integers/16_Average2Integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17_Variables/17_Variables.iml" filepath="$PROJECT_DIR$/17_Variables/17_Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_SentinelAdder/18_SentinelAdder.iml" filepath="$PROJECT_DIR$/18_SentinelAdder/18_SentinelAdder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_SoManyColors/19_SoManyColors.iml" filepath="$PROJECT_DIR$/19_SoManyColors/19_SoManyColors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_SoManyColors_Methods/20_SoManyColors_Methods.iml" filepath="$PROJECT_DIR$/20_SoManyColors_Methods/20_SoManyColors_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_FactorialExample/21_FactorialExample.iml" filepath="$PROJECT_DIR$/21_FactorialExample/21_FactorialExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22_FlyingBall/22_FlyingBall.iml" filepath="$PROJECT_DIR$/22_FlyingBall/22_FlyingBall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23_BouncingBall/23_BouncingBall.iml" filepath="$PROJECT_DIR$/23_BouncingBall/23_BouncingBall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24_SmallestNumber/24_SmallestNumber.iml" filepath="$PROJECT_DIR$/24_SmallestNumber/24_SmallestNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25_BreakAndContinue/25_BreakAndContinue.iml" filepath="$PROJECT_DIR$/25_BreakAndContinue/25_BreakAndContinue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26_DiceRoller/26_DiceRoller.iml" filepath="$PROJECT_DIR$/26_DiceRoller/26_DiceRoller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27_Dogs/27_Dogs.iml" filepath="$PROJECT_DIR$/27_Dogs/27_Dogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/28_Students/28_Students.iml" filepath="$PROJECT_DIR$/28_Students/28_Students.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29_ExpandingCircle/29_ExpandingCircle.iml" filepath="$PROJECT_DIR$/29_ExpandingCircle/29_ExpandingCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/30_ObjectsAsParameters/30_ObjectsAsParameters.iml" filepath="$PROJECT_DIR$/30_ObjectsAsParameters/30_ObjectsAsParameters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31_MasterStudent/31_MasterStudent.iml" filepath="$PROJECT_DIR$/31_MasterStudent/31_MasterStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32_Interfaces/32_Interfaces.iml" filepath="$PROJECT_DIR$/32_Interfaces/32_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/33_Images/33_Images.iml" filepath="$PROJECT_DIR$/33_Images/33_Images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/34_Compounds/34_Compounds.iml" filepath="$PROJECT_DIR$/34_Compounds/34_Compounds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/35_Events/35_Events.iml" filepath="$PROJECT_DIR$/35_Events/35_Events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/37_FunWithStrings/37_FunWithStrings.iml" filepath="$PROJECT_DIR$/37_FunWithStrings/37_FunWithStrings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/38_CaesarCode/38_CaesarCode.iml" filepath="$PROJECT_DIR$/38_CaesarCode/38_CaesarCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/39_SwapAndSort/39_SwapAndSort.iml" filepath="$PROJECT_DIR$/39_SwapAndSort/39_SwapAndSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/40_ColorGrid/40_ColorGrid.iml" filepath="$PROJECT_DIR$/40_ColorGrid/40_ColorGrid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/41_GraphicsContainer/41_GraphicsContainer.iml" filepath="$PROJECT_DIR$/41_GraphicsContainer/41_GraphicsContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/42_GrayScaleConverter/42_GrayScaleConverter.iml" filepath="$PROJECT_DIR$/42_GrayScaleConverter/42_GrayScaleConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/43_HeapVisualizer/43_HeapVisualizer.iml" filepath="$PROJECT_DIR$/43_HeapVisualizer/43_HeapVisualizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/44_PhoneBook/44_PhoneBook.iml" filepath="$PROJECT_DIR$/44_PhoneBook/44_PhoneBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/45_ChristmasTree/45_ChristmasTree.iml" filepath="$PROJECT_DIR$/45_ChristmasTree/45_ChristmasTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/46_ColorClicker/46_ColorClicker.iml" filepath="$PROJECT_DIR$/46_ColorClicker/46_ColorClicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/47_GradeCalculator/47_GradeCalculator.iml" filepath="$PROJECT_DIR$/47_GradeCalculator/47_GradeCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/48_GradeCalculator_JAVAFX/48_GradeCalculator_JAVAFX.iml" filepath="$PROJECT_DIR$/48_GradeCalculator_JAVAFX/48_GradeCalculator_JAVAFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP-Examples.iml" filepath="$PROJECT_DIR$/OOP-Examples.iml" />
+    </modules>
+  </component>
+</project>
