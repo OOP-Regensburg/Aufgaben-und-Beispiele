@@ -21,7 +21,45 @@
     <favorites_list name="OOP-Examples" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="FirstRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/49_CallByValue/src/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/43_HeapVisualizer/src/DemoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27158773">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -47,6 +85,8 @@
         <option value="$PROJECT_DIR$/48_GradeCalculator_JAVAFX/src/de/ur/mi/oop/demos/javafx/fxml/javafx_layout.fxml" />
         <option value="$PROJECT_DIR$/46_ColorClicker/src/de/ur/mi/oop/colorclicker/GameModel.java" />
         <option value="$PROJECT_DIR$/46_ColorClicker/src/de/ur/mi/oop/colorclicker/ColorClicker.java" />
+        <option value="$PROJECT_DIR$/49_CallByValue/src/Person.java" />
+        <option value="$PROJECT_DIR$/49_CallByValue/src/Runner.java" />
       </list>
     </option>
   </component>
@@ -61,9 +101,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1342" />
+    <option name="width" value="1916" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -89,25 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP-Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP-Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,12 +148,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43_HeapVisualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43_HeapVisualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="43_HeapVisualizer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../StarterGraphicsApp-15WS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bouncer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -140,14 +234,16 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/49_CallByValue" />
       <recent name="$PROJECT_DIR$/09_HelloWorld" />
       <recent name="$PROJECT_DIR$/10_Constants" />
       <recent name="$PROJECT_DIR$/11_HelloGraphicsApp" />
       <recent name="$PROJECT_DIR$/12_CenterCircle" />
-      <recent name="$PROJECT_DIR$/13_Add2Integers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/48_GradeCalculator_JAVAFX/src" />
@@ -157,7 +253,7 @@
       <recent name="$PROJECT_DIR$/45_ChristmasTree/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Run 35_Events-DraggerApp">
+  <component name="RunManager" selected="Applet.Run 42_GrayScaleConverter">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -264,56 +360,57 @@
       <listeners />
       <method />
     </configuration>
-    <list size="49">
-      <item index="0" class="java.lang.String" itemvalue="Applet.Run 01_HelloBouncer" />
-      <item index="1" class="java.lang.String" itemvalue="Applet.Run 02_ForLoop" />
-      <item index="2" class="java.lang.String" itemvalue="Applet.Run 03_IfCases" />
-      <item index="3" class="java.lang.String" itemvalue="Applet.Run 04_WhileLoop" />
-      <item index="4" class="java.lang.String" itemvalue="Applet.Run 05_Hurdles" />
-      <item index="5" class="java.lang.String" itemvalue="Applet.Run 06_HelloBouncerWithMethods" />
-      <item index="6" class="java.lang.String" itemvalue="Applet.Run 08_InfiniteLoop" />
-      <item index="7" class="java.lang.String" itemvalue="Applet.Run 09_HelloWorld" />
-      <item index="8" class="java.lang.String" itemvalue="Applet.Run 10_Constants" />
-      <item index="9" class="java.lang.String" itemvalue="Applet.Run 11_HelloGraphicsApp" />
-      <item index="10" class="java.lang.String" itemvalue="Applet.Run 12_CenterCircle" />
-      <item index="11" class="java.lang.String" itemvalue="Applet.Run 13_Add2Integers" />
-      <item index="12" class="java.lang.String" itemvalue="Applet.Run 14_NumCheck" />
-      <item index="13" class="java.lang.String" itemvalue="Applet.Run 15_LargeAndEven" />
-      <item index="14" class="java.lang.String" itemvalue="Applet.Run 16_Average2Integers" />
-      <item index="15" class="java.lang.String" itemvalue="Applet.Run 17_Variables" />
-      <item index="16" class="java.lang.String" itemvalue="Applet.Run 18_SentinelAdder" />
-      <item index="17" class="java.lang.String" itemvalue="Applet.Run 19_SoManyColors" />
-      <item index="18" class="java.lang.String" itemvalue="Applet.Run 20_SoManyColors_Methods" />
-      <item index="19" class="java.lang.String" itemvalue="Applet.Run 21_FactorialExample" />
-      <item index="20" class="java.lang.String" itemvalue="Applet.Run 22_FlyingBall" />
-      <item index="21" class="java.lang.String" itemvalue="Applet.Run 23_BouncingBall" />
-      <item index="22" class="java.lang.String" itemvalue="Applet.Run 24_SmallestNumber" />
-      <item index="23" class="java.lang.String" itemvalue="Applet.Run 25_BreakAndContinue" />
-      <item index="24" class="java.lang.String" itemvalue="Applet.Run 26_DiceRoller" />
-      <item index="25" class="java.lang.String" itemvalue="Applet.Run 28_Stundents" />
-      <item index="26" class="java.lang.String" itemvalue="Applet.Run 29_ExpandingCircle" />
-      <item index="27" class="java.lang.String" itemvalue="Applet.Run 30_ObjectsAsParameters" />
-      <item index="28" class="java.lang.String" itemvalue="Applet.Run 31_MasterStudent" />
-      <item index="29" class="java.lang.String" itemvalue="Applet.Run 32_Interfaces" />
-      <item index="30" class="java.lang.String" itemvalue="Applet.Run 33_Images" />
-      <item index="31" class="java.lang.String" itemvalue="Applet.Run 34_Compounds" />
-      <item index="32" class="java.lang.String" itemvalue="Applet.Run 35_Events-ClickerApp" />
-      <item index="33" class="java.lang.String" itemvalue="Applet.Run 35_Events-DraggerApp" />
-      <item index="34" class="java.lang.String" itemvalue="Applet.Run 35_Events-KeyApp" />
-      <item index="35" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-CharactersApp" />
-      <item index="36" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-EnumApp" />
-      <item index="37" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-StringsApp" />
-      <item index="38" class="java.lang.String" itemvalue="Applet.Run 38_CaesarCode" />
-      <item index="39" class="java.lang.String" itemvalue="Applet.Run 39_SwapAndSort" />
-      <item index="40" class="java.lang.String" itemvalue="Applet.Run 40_ColorGrid" />
-      <item index="41" class="java.lang.String" itemvalue="Applet.Run 41_GraphicsContainer" />
-      <item index="42" class="java.lang.String" itemvalue="Applet.Run 42_GrayScaleConverter" />
-      <item index="43" class="java.lang.String" itemvalue="Applet.Run 43_HeapVisualizer" />
-      <item index="44" class="java.lang.String" itemvalue="Applet.Run 44_PhoneBook" />
-      <item index="45" class="java.lang.String" itemvalue="Applet.Run 45_ChristmasTree" />
-      <item index="46" class="java.lang.String" itemvalue="Applet.Run 46_ColorClicker" />
-      <item index="47" class="java.lang.String" itemvalue="Application.Run 48_GradeCalculator_JAVAFX" />
-      <item index="48" class="java.lang.String" itemvalue="Application.Run 47_GradeCalculator" />
+    <list size="50">
+      <item index="0" class="java.lang.String" itemvalue="Applet.Run 49_CallByValue" />
+      <item index="1" class="java.lang.String" itemvalue="Applet.Run 01_HelloBouncer" />
+      <item index="2" class="java.lang.String" itemvalue="Applet.Run 02_ForLoop" />
+      <item index="3" class="java.lang.String" itemvalue="Applet.Run 03_IfCases" />
+      <item index="4" class="java.lang.String" itemvalue="Applet.Run 04_WhileLoop" />
+      <item index="5" class="java.lang.String" itemvalue="Applet.Run 05_Hurdles" />
+      <item index="6" class="java.lang.String" itemvalue="Applet.Run 06_HelloBouncerWithMethods" />
+      <item index="7" class="java.lang.String" itemvalue="Applet.Run 08_InfiniteLoop" />
+      <item index="8" class="java.lang.String" itemvalue="Applet.Run 09_HelloWorld" />
+      <item index="9" class="java.lang.String" itemvalue="Applet.Run 10_Constants" />
+      <item index="10" class="java.lang.String" itemvalue="Applet.Run 11_HelloGraphicsApp" />
+      <item index="11" class="java.lang.String" itemvalue="Applet.Run 12_CenterCircle" />
+      <item index="12" class="java.lang.String" itemvalue="Applet.Run 13_Add2Integers" />
+      <item index="13" class="java.lang.String" itemvalue="Applet.Run 14_NumCheck" />
+      <item index="14" class="java.lang.String" itemvalue="Applet.Run 15_LargeAndEven" />
+      <item index="15" class="java.lang.String" itemvalue="Applet.Run 16_Average2Integers" />
+      <item index="16" class="java.lang.String" itemvalue="Applet.Run 17_Variables" />
+      <item index="17" class="java.lang.String" itemvalue="Applet.Run 18_SentinelAdder" />
+      <item index="18" class="java.lang.String" itemvalue="Applet.Run 19_SoManyColors" />
+      <item index="19" class="java.lang.String" itemvalue="Applet.Run 20_SoManyColors_Methods" />
+      <item index="20" class="java.lang.String" itemvalue="Applet.Run 21_FactorialExample" />
+      <item index="21" class="java.lang.String" itemvalue="Applet.Run 22_FlyingBall" />
+      <item index="22" class="java.lang.String" itemvalue="Applet.Run 23_BouncingBall" />
+      <item index="23" class="java.lang.String" itemvalue="Applet.Run 24_SmallestNumber" />
+      <item index="24" class="java.lang.String" itemvalue="Applet.Run 25_BreakAndContinue" />
+      <item index="25" class="java.lang.String" itemvalue="Applet.Run 26_DiceRoller" />
+      <item index="26" class="java.lang.String" itemvalue="Applet.Run 28_Stundents" />
+      <item index="27" class="java.lang.String" itemvalue="Applet.Run 29_ExpandingCircle" />
+      <item index="28" class="java.lang.String" itemvalue="Applet.Run 30_ObjectsAsParameters" />
+      <item index="29" class="java.lang.String" itemvalue="Applet.Run 31_MasterStudent" />
+      <item index="30" class="java.lang.String" itemvalue="Applet.Run 32_Interfaces" />
+      <item index="31" class="java.lang.String" itemvalue="Applet.Run 33_Images" />
+      <item index="32" class="java.lang.String" itemvalue="Applet.Run 34_Compounds" />
+      <item index="33" class="java.lang.String" itemvalue="Applet.Run 35_Events-ClickerApp" />
+      <item index="34" class="java.lang.String" itemvalue="Applet.Run 35_Events-DraggerApp" />
+      <item index="35" class="java.lang.String" itemvalue="Applet.Run 35_Events-KeyApp" />
+      <item index="36" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-CharactersApp" />
+      <item index="37" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-EnumApp" />
+      <item index="38" class="java.lang.String" itemvalue="Applet.Run 37_FunWithStrings-StringsApp" />
+      <item index="39" class="java.lang.String" itemvalue="Applet.Run 38_CaesarCode" />
+      <item index="40" class="java.lang.String" itemvalue="Applet.Run 39_SwapAndSort" />
+      <item index="41" class="java.lang.String" itemvalue="Applet.Run 40_ColorGrid" />
+      <item index="42" class="java.lang.String" itemvalue="Applet.Run 41_GraphicsContainer" />
+      <item index="43" class="java.lang.String" itemvalue="Applet.Run 42_GrayScaleConverter" />
+      <item index="44" class="java.lang.String" itemvalue="Applet.Run 43_HeapVisualizer" />
+      <item index="45" class="java.lang.String" itemvalue="Applet.Run 44_PhoneBook" />
+      <item index="46" class="java.lang.String" itemvalue="Applet.Run 45_ChristmasTree" />
+      <item index="47" class="java.lang.String" itemvalue="Applet.Run 46_ColorClicker" />
+      <item index="48" class="java.lang.String" itemvalue="Application.Run 48_GradeCalculator_JAVAFX" />
+      <item index="49" class="java.lang.String" itemvalue="Application.Run 47_GradeCalculator" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -330,7 +427,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="23" width="1342" height="1177" extended-state="0" />
+    <frame x="4" y="23" width="1916" height="1177" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -341,10 +438,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32851985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3099851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41283923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -387,16 +484,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/49_CallByValue/src/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/46_ColorClicker/src/de/ur/mi/oop/colorclicker/ViewController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#140#141#0" expanded="false" />
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,17 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#164#165#0" expanded="false" />
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,11 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1286#1287#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -450,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14685315">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -623,24 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/43_HeapVisualizer/src/data/assets/visualizer.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/43_HeapVisualizer/src/data/assets/visualizer.config">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/43_HeapVisualizer/src/DemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44594595">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -679,17 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#164#165#0" expanded="false" />
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#601#602#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-            <element signature="e#834#835#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,12 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#140#141#0" expanded="false" />
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,11 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1232#1233#0" expanded="false" />
-            <element signature="e#1286#1287#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,6 +821,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13062409">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_HelloBouncer/src/FirstRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/49_CallByValue/src/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/43_HeapVisualizer/src/DemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27158773">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -48,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/46_ColorClicker/46_ColorClicker.iml" filepath="$PROJECT_DIR$/46_ColorClicker/46_ColorClicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/47_GradeCalculator/47_GradeCalculator.iml" filepath="$PROJECT_DIR$/47_GradeCalculator/47_GradeCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/48_GradeCalculator_JAVAFX/48_GradeCalculator_JAVAFX.iml" filepath="$PROJECT_DIR$/48_GradeCalculator_JAVAFX/48_GradeCalculator_JAVAFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/49_CallByValue/49_CallByValue.iml" filepath="$PROJECT_DIR$/49_CallByValue/49_CallByValue.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-Examples.iml" filepath="$PROJECT_DIR$/OOP-Examples.iml" />
     </modules>
   </component>
