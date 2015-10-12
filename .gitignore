@@ -6,3 +6,4 @@ examples/out
 examples/src
 tasks/out
 tasks/src
+export/*/out
