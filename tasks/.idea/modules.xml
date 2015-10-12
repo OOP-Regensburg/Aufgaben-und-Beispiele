@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OOP-Tasks.iml" filepath="$PROJECT_DIR$/OOP-Tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U01_HelloBouncer/U01_HelloBouncer.iml" filepath="$PROJECT_DIR$/U01_HelloBouncer/U01_HelloBouncer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U01_HelloBouncer-Loesung/U01_HelloBouncer-Loesung.iml" filepath="$PROJECT_DIR$/U01_HelloBouncer-Loesung/U01_HelloBouncer-Loesung.iml" />
+    </modules>
+  </component>
+</project>

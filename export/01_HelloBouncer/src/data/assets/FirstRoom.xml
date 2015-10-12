@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+	<bouncer x="5" y="14" />
+	<obstacle x="8" y="14" />
+	<obstacle x="9" y="14" />
+	<obstacle x="10" y="14" />
+	<obstacle x="11" y="14" />
+	<obstacle x="12" y="14" />
+	<obstacle x="13" y="14" />
+	<obstacle x="14" y="14" />
+	<color x="10" y="13" value="RED"/>
+</map>
