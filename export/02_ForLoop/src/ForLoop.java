@@ -10,7 +10,7 @@ public class ForLoop extends BouncerApp {
 	@Override
 	public void bounce() {
 		loadMap("Empty");
-		for(int i=0; i<15;i++) {
+		for(int i=0; i<14;i++) {
 			bouncer.move();
 		}
 		

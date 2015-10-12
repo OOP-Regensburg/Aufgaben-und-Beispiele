@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run: 03-IfCases" type="Applet" factoryName="Applet" singleton="true">
+    <option name="WIDTH" value="400" />
+    <option name="MAIN_CLASS_NAME" value="IfCases" />
+    <option name="HEIGHT" value="300" />
+    <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <module name="03_IfCases" />
+    <method />
+  </configuration>
+</component>

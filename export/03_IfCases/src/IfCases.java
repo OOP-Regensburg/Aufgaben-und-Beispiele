@@ -12,7 +12,7 @@ public class IfCases extends BouncerApp {
 	@Override
 	public void bounce() {
 		loadMap("Empty");
-		for(int i=0; i<15;i++) {
+		for(int i=0; i<14;i++) {
 			bouncer.move();
 			if(bouncer.canMoveForward()) {
 				bouncer.paintField(FieldColor.GREEN);
