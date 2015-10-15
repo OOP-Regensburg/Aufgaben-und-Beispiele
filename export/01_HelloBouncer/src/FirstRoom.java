@@ -1,4 +1,5 @@
 import de.ur.mi.bouncer.apps.BouncerApp;
+import de.ur.mi.bouncer.world.FieldColor;
 
 public class FirstRoom extends BouncerApp {
 
@@ -10,6 +11,18 @@ public class FirstRoom extends BouncerApp {
 	@Override
 	public void bounce() {
 		loadMap("FirstRoom");
+		bouncer.move();
+		bouncer.move();
+		bouncer.turnLeft();
+		bouncer.move();
+		bouncer.turnLeft();
+		bouncer.turnLeft();
+		bouncer.turnLeft();
+		bouncer.move();
+		bouncer.move();
+		bouncer.move();
+		bouncer.paintField(FieldColor.GREEN);
+
 	}
 	
 

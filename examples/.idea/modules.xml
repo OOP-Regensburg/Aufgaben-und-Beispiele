@@ -8,11 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/04_WhileLoop/04_WhileLoop.iml" filepath="$PROJECT_DIR$/04_WhileLoop/04_WhileLoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Hurdles/05_Hurdles.iml" filepath="$PROJECT_DIR$/05_Hurdles/05_Hurdles.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_HelloBouncerWithMethods/06_HelloBouncerWithMethods.iml" filepath="$PROJECT_DIR$/06_HelloBouncerWithMethods/06_HelloBouncerWithMethods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08_InfiniteLoop/08_InfiniteLoop.iml" filepath="$PROJECT_DIR$/08_InfiniteLoop/08_InfiniteLoop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_HelloWorld/09_HelloWorld.iml" filepath="$PROJECT_DIR$/09_HelloWorld/09_HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/10_Constants/10_Constants.iml" filepath="$PROJECT_DIR$/10_Constants/10_Constants.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_HelloGraphicsApp/11_HelloGraphicsApp.iml" filepath="$PROJECT_DIR$/11_HelloGraphicsApp/11_HelloGraphicsApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/12_CenterCircle/12_CenterCircle.iml" filepath="$PROJECT_DIR$/12_CenterCircle/12_CenterCircle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_InfiniteLoop/07_InfiniteLoop.iml" filepath="$PROJECT_DIR$/07_InfiniteLoop/07_InfiniteLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_HelloWorld/08_HelloWorld.iml" filepath="$PROJECT_DIR$/08_HelloWorld/08_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Constants/09_Constants.iml" filepath="$PROJECT_DIR$/09_Constants/09_Constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_HelloGraphicsApp/10_HelloGraphicsApp.iml" filepath="$PROJECT_DIR$/10_HelloGraphicsApp/10_HelloGraphicsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_CenterCircle/11_CenterCircle.iml" filepath="$PROJECT_DIR$/11_CenterCircle/11_CenterCircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_Add2Integers/13_Add2Integers.iml" filepath="$PROJECT_DIR$/13_Add2Integers/13_Add2Integers.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_NumCheck/14_NumCheck.iml" filepath="$PROJECT_DIR$/14_NumCheck/14_NumCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_LargeAndEven/15_LargeAndEven.iml" filepath="$PROJECT_DIR$/15_LargeAndEven/15_LargeAndEven.iml" />
