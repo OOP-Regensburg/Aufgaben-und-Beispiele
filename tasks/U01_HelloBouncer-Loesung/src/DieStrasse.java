@@ -15,9 +15,9 @@ public class DieStrasse extends BouncerApp {
 	}
 
     /**
-     * Bouncer moves from the left to the right side of the map and repairs broken fields on the street
-     * Pre-condition: Bouncer stands on the left side of the map, facing east
-     * Post-condition: Bouncer stands on the right side of the map, facing east
+     * Bouncer taverses the street and repairs broken fields
+     * Pre-condition: Bouncer stands on the first field of the street, facing east
+     * Post-condition: Bouncer stands on the last field of the street, facing east
      */
 	private void checkStreet() {
 		while(bouncer.canMoveForward()) {
@@ -27,7 +27,7 @@ public class DieStrasse extends BouncerApp {
 	}
 
     /**
-     * Bouncer checks the color of the field he is currently standing on and repairs it if necessary
+     * Bouncer checks the color of the field he is currently standing on and if necessary repairs it
      * Pre-condition: Bouncer stands on a field
      * Post-condition: Bouncer stands on on a green field
      */

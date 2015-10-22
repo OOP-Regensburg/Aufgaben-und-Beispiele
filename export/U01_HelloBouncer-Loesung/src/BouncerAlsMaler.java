@@ -4,9 +4,9 @@ import de.ur.mi.bouncer.world.FieldColor;
 public class BouncerAlsMaler extends BouncerApp {
 
     /**
-     * Bouncer moves into a room and paints the walls red.
+     * Bouncer moves into a room and paints the walls..
      * Pre-condition: Bouncer stands on the ground, facing east
-     * Post-condition: Bouncer stands on the right side of the map, facing east
+     * Post-condition: Bouncer stands on the right side of the map, facing east. All fields in the room are painted red.
      */
     @Override
 	public void bounce() {
@@ -27,9 +27,9 @@ public class BouncerAlsMaler extends BouncerApp {
 	}
 
     /**
-     * Bouncer paints the walls red.
+     * Bouncer paints tall fields in thre room.
      * Pre-condition: Bouncer stands on the ground (in the doorway), facing east
-     * Post-condition: Bouncer stands on the right side of the map, facing east
+     * Post-condition: Bouncer stands on the right side of the map, facing east. All fields in the room are painted red.
      */
 	private void paintRoom() {
         while(bouncer.canMoveForward()) {
@@ -41,7 +41,7 @@ public class BouncerAlsMaler extends BouncerApp {
     /**
      * Bouncer paints all fields in the current lane (from ground to ceiling).
      * Pre-condition: Bouncer stands on the ground (in the room), facing east
-     * Post-condition: Bouncer stands on the ground (in the room), facing east
+     * Post-condition: Bouncer stands on the ground (in the room), facing east. All fields in the room are painted red.
      */
 	private void paintLane() {
         bouncer.turnLeft();
@@ -60,7 +60,7 @@ public class BouncerAlsMaler extends BouncerApp {
     /**
      * Bouncer moves to the next lane.
      * Pre-condition: Bouncer stands on the ground (in the room), facing east
-     * Post-condition: Bouncer stands on the next field, facing east
+     * Post-condition: Bouncer stands on the bottom field of the next lane, facing east
      */
 	private void moveToNextLane() {
         bouncer.move();

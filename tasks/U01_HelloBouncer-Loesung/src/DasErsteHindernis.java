@@ -3,7 +3,7 @@ import de.ur.mi.bouncer.apps.BouncerApp;
 public class DasErsteHindernis extends BouncerApp {
 
     /**
-     * Bouncer moves from left to right and climbs over an obstacles
+     * Bouncer moves from left to right and climbs over the obstacles
      * Pre-condition: Bouncer stands on the left side of the obstacles, facing east
      * Post-condition: Bouncer stands on the right side of the obstacles, facing east
      */
