@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run 36_FunWithStrings-EnumApp" type="Applet" factoryName="Applet" singleton="true">
+    <option name="WIDTH" value="400" />
+    <option name="MAIN_CLASS_NAME" value="enums.EnumApp" />
+    <option name="HEIGHT" value="300" />
+    <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <module name="36_FunWithStrings" />
+    <method />
+  </configuration>
+</component>
