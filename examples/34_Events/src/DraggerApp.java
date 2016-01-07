@@ -71,6 +71,7 @@ public class DraggerApp extends GraphicsApp {
 		if(ellipseClicked) {
 			dragging = true;
 		}
+		super.mousePressed(e);
 	}
 	
 	/*

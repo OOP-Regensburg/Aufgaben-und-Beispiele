@@ -1,5 +1,7 @@
 import de.ur.mi.bouncer.apps.BouncerApp;
 
+import java.awt.*;
+
 public class Hurdles extends BouncerApp {
 
 	/**
@@ -9,14 +11,16 @@ public class Hurdles extends BouncerApp {
 	 */
 	@Override
 	public void bounce() {
-		loadLocalMap("Hurdles");
+        setPositionForRecording();
+        loadLocalMap("Hurdles");
 		for(int i=0; i < 3; i++) {
-			if(bouncer.canMoveForward()) {
-				bouncer.move();
-			} else {
-				jumpOberHurdle();
-			}
-		}
+            if (bouncer.canMoveForward()) {
+                bouncer.move();
+            } else {
+                println("trying to jump over obstacle " + i);
+                jumpOverHurdle();
+            }
+        }
 	}
 	
 	/**
@@ -24,7 +28,8 @@ public class Hurdles extends BouncerApp {
 	 * Pre-condition: Bouncer stands in front of a hurdle, facing east
 	 * Post-condition: Bouncer stands behind hurdle, facing east
 	 */
-	private void jumpOberHurdle() {
+	private void jumpOverHurdle() {
+        println("in: jumpOverHurdle");
 		ascendHurdle();
 		bouncer.move();
 		descendHurdle();
@@ -36,6 +41,7 @@ public class Hurdles extends BouncerApp {
 	 * Post-Condition: Bouncer stand on top of a hurlde, facing east
 	 */
 	private void ascendHurdle() {
+        println("in: ascendHurdle");
 		bouncer.turnLeft();
 		while(bouncer.canNotMoveRight()) {
 			bouncer.move();
@@ -51,20 +57,30 @@ public class Hurdles extends BouncerApp {
 	 * Post-Condition: Bouncer stands behind a hurdle, facing east
 	 */
 	private void descendHurdle() {
+        println("in: descendHurdle");
 		bouncer.move();
-		bouncer.turnLeft();
-		bouncer.turnLeft();
-		bouncer.turnLeft();
+        while(bouncer.isFacingSouth() == false) {
+            bouncer.turnLeft();
+        }
 		while(bouncer.canMoveForward()) {
 			bouncer.move();
 		}
 		bouncer.turnLeft();
 	}
 
+
+    private void setPositionForRecording() {
+        Container c = getParent();
+        Window window = null;
+        while (c.getParent()!=null) {
+            c = c.getParent();
+        }
+        if (c instanceof Window) {
+            window = (Window)c;
+            window.setLocation(1394,130);
+        } else {
+            System.out.println(c);
+        }
+    }
+
 }
-
-
-
-
-
-

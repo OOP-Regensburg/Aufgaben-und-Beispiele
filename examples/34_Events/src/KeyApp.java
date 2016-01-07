@@ -48,7 +48,7 @@ public class KeyApp extends GraphicsApp {
 	 * 
 	 */
 	@Override
-	public void keyPressed(KeyEvent e) { 
+	public void keyPressed(KeyEvent e) {
 		backGroundColor = random.nextColor();
 		super.keyPressed(e);
 	}

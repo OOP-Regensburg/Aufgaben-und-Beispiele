@@ -4,7 +4,7 @@
     <option name="MAIN_CLASS_NAME" value="DasErsteHindernis" />
     <option name="HEIGHT" value="300" />
     <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    <module name="U01_HelloBouncer" />
+    <module name="U01_HelloBouncer-Starter" />
     <method />
   </configuration>
 </component>

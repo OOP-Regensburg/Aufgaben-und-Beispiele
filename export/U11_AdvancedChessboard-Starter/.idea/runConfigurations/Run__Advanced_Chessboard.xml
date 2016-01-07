@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run: Advanced Chessboard" type="Applet" factoryName="Applet" singleton="true">
+    <option name="WIDTH" value="400" />
+    <option name="MAIN_CLASS_NAME" value="ChessboardController" />
+    <option name="HEIGHT" value="300" />
+    <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <module name="U11_AdvancedChessboard-Starter" />
+    <method />
+  </configuration>
+</component>

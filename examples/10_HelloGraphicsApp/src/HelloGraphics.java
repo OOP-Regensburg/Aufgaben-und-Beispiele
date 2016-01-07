@@ -29,11 +29,9 @@ public class HelloGraphics extends GraphicsApp {
 	 * Creates and draws an Ellipse and Rectangle onto the canvas.
 	 */
 	private void drawThings() {
-		Ellipse circle = new Ellipse(200, 200, 100, 100, Color.CYAN);
+		translate(0,400);
+		Ellipse circle = new Ellipse(0, 100, 100, 100, Color.CYAN);
 		circle.draw();
-		
-		Rect box = new Rect(175, 175, 50, 50, Color.RED);
-		box.draw();
 	}
 
 }

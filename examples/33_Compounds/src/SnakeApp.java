@@ -29,7 +29,7 @@ public class SnakeApp extends GraphicsApp {
 	}
 
 	private void setupComponents() {
-		snake = new Snake(50, 50, 5);
+		snake = new Snake(50, 50, 10);
 	}
 
 	public void draw() {

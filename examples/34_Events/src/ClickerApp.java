@@ -85,6 +85,26 @@ public class ClickerApp extends GraphicsApp {
 		}
 		
 		super.mousePressed(e);
+
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

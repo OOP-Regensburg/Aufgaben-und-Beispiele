@@ -1,7 +1,9 @@
 import java.io.File;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import com.sun.deploy.security.SecureStaticVersioning;
 import de.ur.mi.graphics.Rect;
 import de.ur.mi.graphicsapp.GraphicsApp;
 import de.ur.mi.util.RandomGenerator;
@@ -12,10 +14,10 @@ import ur.mi.oop.logger.Logger;
 
 @SuppressWarnings("serial")
 public class DemoApp extends GraphicsApp {
-	
+
 	private static final String CONFIG_FILE_PATH = "/data/assets/visualizer.config";
 	private static final String LOG_FILE_PATH = "/data/assets/visualizer.log";
-	private static final int MAX_FRAMES_TO_LOG = 1000;
+	private static final int MAX_FRAMES_TO_LOG = 100;
 	
 	private RandomGenerator random = RandomGenerator.getInstance();
 	private Config config;
@@ -34,7 +36,6 @@ public class DemoApp extends GraphicsApp {
 		initHeapVisualizer();
 		initLogger();
 		size(config.getWidth(), config.getHeight());
-	
 	}
 	
 	private void initConfig() {
@@ -57,7 +58,8 @@ public class DemoApp extends GraphicsApp {
 	}
 	
 	private void initLogger() {
-		log = new Logger(new File(LOG_FILE_PATH), MAX_FRAMES_TO_LOG);
+		File logFile = createFile(LOG_FILE_PATH);
+		log = new Logger(logFile, MAX_FRAMES_TO_LOG);
 	}
 	
 	private void fillBallList() {

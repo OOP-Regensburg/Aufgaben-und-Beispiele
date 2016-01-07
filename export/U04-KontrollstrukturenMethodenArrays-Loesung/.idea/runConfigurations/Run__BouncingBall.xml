@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run: BouncingBall" type="Applet" factoryName="Applet" singleton="true">
+    <option name="WIDTH" value="400" />
+    <option name="MAIN_CLASS_NAME" value="BouncingBall" />
+    <option name="HEIGHT" value="300" />
+    <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <module name="U04-KontrollstrukturenMethodenArrays-Loesung" />
+    <method />
+  </configuration>
+</component>

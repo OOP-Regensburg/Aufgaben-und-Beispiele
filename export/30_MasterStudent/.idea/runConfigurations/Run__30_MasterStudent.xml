@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run: 30-MasterStudent" type="Applet" factoryName="Applet" singleton="true">
+    <option name="WIDTH" value="400" />
+    <option name="MAIN_CLASS_NAME" value="StudentsApp" />
+    <option name="HEIGHT" value="300" />
+    <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    <module name="30_MasterStudent" />
+    <method />
+  </configuration>
+</component>
