@@ -17,7 +17,7 @@ public class DemoApp extends GraphicsApp {
 
 	private static final String CONFIG_FILE_PATH = "/data/assets/visualizer.config";
 	private static final String LOG_FILE_PATH = "/data/assets/visualizer.log";
-	private static final int MAX_FRAMES_TO_LOG = 500;
+	private static final int MAX_FRAMES_TO_LOG = 100;
 	
 	private RandomGenerator random = RandomGenerator.getInstance();
 	private Config config;
@@ -54,7 +54,7 @@ public class DemoApp extends GraphicsApp {
 	}
 	
 	private void initHeapVisualizer() {
-		heapVisualizer = new HeapVisualizer(config.getHeight(), config.getWidth());
+		heapVisualizer = new HeapVisualizer(config.getWidth(), config.getHeight());
 	}
 	
 	private void initLogger() {

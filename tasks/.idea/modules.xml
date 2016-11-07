@@ -25,6 +25,10 @@
       <module fileurl="file://$PROJECT_DIR$/U10_ArrayLists-Starter/U10_ArrayLists-Starter.iml" filepath="$PROJECT_DIR$/U10_ArrayLists-Starter/U10_ArrayLists-Starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/U11_AdvancedChessboard-Loesung/U11_AdvancedChessboard-Loesung.iml" filepath="$PROJECT_DIR$/U11_AdvancedChessboard-Loesung/U11_AdvancedChessboard-Loesung.iml" />
       <module fileurl="file://$PROJECT_DIR$/U11_AdvancedChessboard-Starter/U11_AdvancedChessboard-Starter.iml" filepath="$PROJECT_DIR$/U11_AdvancedChessboard-Starter/U11_AdvancedChessboard-Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U12_Memory-Files-Exceptions-Loesung/U12_Memory-Files-Exceptions-Loesung.iml" filepath="$PROJECT_DIR$/U12_Memory-Files-Exceptions-Loesung/U12_Memory-Files-Exceptions-Loesung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U12_Memory-Files-Exceptions-Starter/U12_Memory-Files-Exceptions-Starter.iml" filepath="$PROJECT_DIR$/U12_Memory-Files-Exceptions-Starter/U12_Memory-Files-Exceptions-Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U13_Collections-Loesung/U13_Collections-Loesung.iml" filepath="$PROJECT_DIR$/U13_Collections-Loesung/U13_Collections-Loesung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/U13_Collections-Starter/U13_Collections-Starter.iml" filepath="$PROJECT_DIR$/U13_Collections-Starter/U13_Collections-Starter.iml" />
     </modules>
   </component>
 </project>

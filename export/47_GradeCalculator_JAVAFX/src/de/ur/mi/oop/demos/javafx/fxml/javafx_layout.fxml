@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="de.ur.mi.oop.demos.javafx.ViewController"
+	xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+
+	<Label text="OOP Notenrechner" textAlignment="CENTER"
+		GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2">
+		<font>
+			<Font size="18.0" />
+		</font>
+	</Label>
+
+
+	<Label text="Studienleistung 1:" GridPane.columnIndex="0"
+		GridPane.rowIndex="1" />
+
+	<TextField id="firstGradeInput" fx:id="firstGradeInput" text="5.0" GridPane.columnIndex="1"
+		GridPane.rowIndex="1" onKeyTyped="#onTextFieldChanged" />
+
+	<Label text="Studienleistung 2:" GridPane.columnIndex="0"
+		GridPane.rowIndex="2" />
+
+	<TextField id="secondGradeInput" fx:id="secondGradeInput" text="5.0" GridPane.columnIndex="1"
+		GridPane.rowIndex="2" onKeyTyped="#onTextFieldChanged" />
+
+	<Label text="Studienleistung 3:" GridPane.columnIndex="0"
+		GridPane.rowIndex="3" />
+
+	<TextField id="thirdGradeInput" fx:id="thirdGradeInput" text="5.0" GridPane.columnIndex="1"
+		GridPane.rowIndex="3" onKeyTyped="#onTextFieldChanged"/>
+		
+	<Label text="Note für Studienleistungen:" GridPane.columnIndex="1"
+		GridPane.rowIndex="4" />
+		
+	<Label id="finalGradeOutput" fx:id="finalGradeOutput" text="5.0" GridPane.columnIndex="2"
+		GridPane.rowIndex="4"> 
+		<font>
+			<Font size="16.0" />
+		</font>
+	</Label>
+
+</GridPane>

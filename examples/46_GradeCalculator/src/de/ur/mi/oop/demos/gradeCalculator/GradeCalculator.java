@@ -4,11 +4,20 @@ public class GradeCalculator {
 	private static final int MIN_ARGUMENTS = 3;
 
 	public static void main(String[] args) {
+		String x = "TEST";
+		System.out.println(x = "Hello World");
+
+
 		if(args.length < MIN_ARGUMENTS) {
 			System.out.println("Invalid arguments. (Usage: java GradeCalculator grade1 grade2 grade3)");
 		} else {
 			double finalGrade = calculateGrade(args);
 			System.out.println("Final grade: " + Math.ceil(finalGrade));
+		}
+
+		char c = 7;
+		if(c = 3) {
+
 		}
 	}
 

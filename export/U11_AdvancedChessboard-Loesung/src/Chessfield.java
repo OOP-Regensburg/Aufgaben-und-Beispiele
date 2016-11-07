@@ -8,9 +8,11 @@ import de.ur.mi.graphics.GraphicsObject;
 import de.ur.mi.graphics.Image;
 import de.ur.mi.graphics.Rect;
 
+import java.util.NavigableMap;
+
 public class Chessfield extends GraphicsObject {
 	private boolean hasPawn = false;
-	private Image pawnPiece;
+	private static Image pawnPiece;
 
 	public Chessfield(double x, double y, int width, int height,
 			Color backgroundColor) {
@@ -19,7 +21,10 @@ public class Chessfield extends GraphicsObject {
 	}
 
 	private void initPiece(double x, double y, int width, int height) {
-		pawnPiece = new Image(x, y, width, height, "data/assets/pawn.png");
+		if(pawnPiece != null) {
+			return;
+		}
+		pawnPiece = new Image(-1, -1, -1, -1, "data/assets/pawn.png");
 	}
 
 	public void addPawn() {
@@ -47,6 +52,8 @@ public class Chessfield extends GraphicsObject {
 
 	private void drawPawn() {
 		if (hasPawn) {
+			pawnPiece.setPosition(this.getX(), this.getY());
+			pawnPiece.setSize(this.getWidth(), this.getHeight());
 			pawnPiece.draw();
 		}
 	}

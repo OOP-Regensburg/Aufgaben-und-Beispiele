@@ -54,7 +54,7 @@ public class DemoApp extends GraphicsApp {
 	}
 	
 	private void initHeapVisualizer() {
-		heapVisualizer = new HeapVisualizer(config.getHeight(), config.getWidth());
+		heapVisualizer = new HeapVisualizer(config.getWidth(), config.getHeight());
 	}
 	
 	private void initLogger() {

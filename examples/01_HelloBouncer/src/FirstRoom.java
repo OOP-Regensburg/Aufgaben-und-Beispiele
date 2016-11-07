@@ -10,7 +10,7 @@ public class FirstRoom extends BouncerApp {
 	 */
 	@Override
 	public void bounce() {
-		loadLocalMap("FirstRoom");
+		loadLocalMap("Test1");
 		bouncer.move();
 		bouncer.move();
 		bouncer.turnLeft();
@@ -22,6 +22,10 @@ public class FirstRoom extends BouncerApp {
 		bouncer.move();
 		bouncer.move();
 		bouncer.paintField(Color.GREEN);
+
+
+
+
 	}
 	
 
